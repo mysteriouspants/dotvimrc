@@ -1,0 +1,6 @@
+# Dotvimrc
+
+A vim configuration, largely adapted from [Janus][janus], which is configured
+the way I like.
+
+[janus]: https://github.com/carlhuda/janus
