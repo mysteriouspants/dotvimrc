@@ -59,10 +59,10 @@ call plug#end()
       let nr = bufwinnr(t:NERDTreeBufName)
       if nr != -1
         exe nr . "wincmd w"
-	exe substitute(mapcheck("R"), "<CR>", "", "")
-	if !stay
+        exe substitute(mapcheck("R"), "<CR>", "", "")
+        if !stay
           wincmd p
-	endif
+        endif
       endif
     endif
   endfunction
@@ -88,7 +88,7 @@ set list
 set backspace=indent,eol,start
 
 set listchars=""
-set listchars=tab:\ \
+set listchars=tab:\ \ 
 set listchars+=trail:.
 set listchars+=extends:>
 set listchars+=precedes:<
