@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugins')
   Plug 'airblade/vim-gitgutter'
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'preservim/nerdtree'
+  Plug 'preservim/nercommenter'
   Plug 'sheerun/vim-polyglot'
   Plug 'elzr/vim-json'
   Plug 'bronson/vim-trailing-whitespace'
@@ -72,6 +73,9 @@ if has('vim_starting') && !has('nvim') && &compatible
   set nocompatible
 endif
 
+set cursorline
+set cursorcolumn
+set colorcolumn=80
 set number
 set ruler
 syntax enable
