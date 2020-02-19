@@ -10,7 +10,7 @@ call plug#begin('~/.vim/plugins')
   Plug 'airblade/vim-gitgutter'
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'preservim/nerdtree'
-  Plug 'preservim/nercommenter'
+  Plug 'preservim/nerdcommenter'
   Plug 'sheerun/vim-polyglot'
   Plug 'elzr/vim-json'
   Plug 'bronson/vim-trailing-whitespace'
