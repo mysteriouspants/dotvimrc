@@ -74,7 +74,6 @@ if has('vim_starting') && !has('nvim') && &compatible
 endif
 
 set cursorline
-set cursorcolumn
 set colorcolumn=80
 set number
 set ruler
